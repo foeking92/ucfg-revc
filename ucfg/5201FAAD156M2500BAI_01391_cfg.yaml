@@ -1,0 +1,55 @@
+basic_info:
+    filename: 5201FAAD156M2500BAI_01391_cfg
+    pn: 5201FAAD156M2500BAI
+    cfgid: 1391
+
+specification:
+    package: 3225
+    freq: 156250000
+    xtal: 156250000
+    odiv: 1
+    vdd: 3.3/2.5/1.8
+    driver: HCSL_50_EXT
+    temp_range: -40~85
+    init_tol: 5
+    temp_stab: 20
+    oe_pin: 0
+    active_high: 1
+
+func:
+    vref: 1.00
+    
+xtal:
+    freq_target: 156250000
+    cdac_norm: 0.5
+    itrim: 0.0015
+    vpp_xa: 0.8
+    vpp_xb: 0.4
+
+ucfg:
+    autostart: True
+    temp_comp: True
+    opn:
+        current: 1391
+    drvhv:
+        enabled: True                   
+        oe:                             
+            val: True                   
+            pin:
+                enabled: True           
+                active_high: True       
+                pull_high: True
+                pull_low: False
+                sel: 0                 
+        div:
+            option0: 1           
+        mode:
+            option0:
+                diff: HCSL_50_EXT        
+                cmos:
+                    out0:
+                        enabled: False   
+                        inv: False      
+                    out1:
+                        enabled: False 
+                        inv: False      
