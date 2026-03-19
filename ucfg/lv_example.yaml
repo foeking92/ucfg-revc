@@ -1,0 +1,71 @@
+basic_info:
+    filename: 5211CAAC50M00000CAI_01390_cfg
+    pn: 5211CAAC50M00000CAI
+    cfgid: 1390
+ 
+specification:
+    package: 2520
+    freq: 50000000
+    xtal: 50000000
+    odiv: 1
+    vdd: 1.8
+    driver: HVCMOS_CLKP
+    temp_range: -40~85
+    init_tol: 2
+    temp_stab: 0.5
+    oe_pin: 0
+    active_high: 1
+ 
+func:
+    vref: 1.00
+
+xtal:
+    freq_target: 50000000
+    cdac_norm: 0.5
+    itrim: 0.0010
+    vpp_xa: 0.8
+    vpp_xb: 0.4
+ 
+icfg: 
+
+comp:
+    freq_target: 50000000
+    vdd: 1.8
+    temp_low: -45
+    temp_high: 90
+    search_bit: 12
+    iload: 3
+ 
+meas:
+    freq_target: 50000000
+    vdd: 1.8
+    temp_low: -40
+    temp_high: 85
+    tol_limit: 1.8
+    stab_limit: 0.45
+    iload: 0
+ 
+ucfg:
+    autostart: True
+    temp_comp: True
+    opn:
+        current: 1390
+    drvlvb:
+        enabled: True                   
+        oe:                             
+            val: True                   
+            pin:
+                enabled: True           
+                active_high: True       
+                pull_high: True
+                pull_low: False
+                sel: 0                  
+        div:
+            option0: 1
+        vreg: 1.2           
+        out0:
+            enabled: True
+            off_state: 0
+        out1:
+            enabled: False
+            off_state: 1

@@ -1,0 +1,76 @@
+basic_info:
+    filename: 5211CAAC25M00000CAI_01389_cfg
+    pn: 5211CAAC25M00000CAI
+    cfgid: 1389
+ 
+specification:
+    package: 2520
+    freq: 25000000
+    xtal: 50000000
+    odiv: 2
+    vdd: 1.8
+    driver: HVCMOS_CLKP
+    temp_range: -40~85
+    init_tol: 2
+    temp_stab: 0.5
+    oe_pin: 0
+    active_high: 1
+ 
+func:
+    vref: 1.00
+
+xtal:
+    freq_target: 50000000
+    cdac_norm: 0.5
+    itrim: 0.0010
+    vpp_xa: 0.8
+    vpp_xb: 0.4
+ 
+icfg: 1521_hvcmos_clkm_odiv2_reva
+
+comp:
+    freq_target: 50000000
+    vdd: 1.8
+    temp_low: -45
+    temp_high: 90
+    search_bit: 12
+    iload: 2
+ 
+meas:
+    freq_target: 50000000
+    vdd: 1.8
+    temp_low: -40
+    temp_high: 85
+    tol_limit: 1.8
+    stab_limit: 0.45
+    iload: 0
+ 
+ucfg:
+    autostart: True
+    temp_comp: True
+    opn:
+        factory: 1521
+        current: 1389
+    drvhv:
+        enabled: True                   
+        oe:                             
+            val: True                   
+            pin:
+                enabled: True           
+                active_high: True       
+                pull_high: True
+                pull_low: False
+                sel: 0                  
+        div:
+            option0: 2                 
+        mode:
+            option0:
+                diff: OFF        
+                cmos:
+                    out0:
+                        enabled: True   
+                        inv: False      
+                    out1:
+                        enabled: False 
+                        inv: False      
+    
