@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv 5201FAAD156M2500BAI_01391_cfg.yaml 1391_5201FAAD156M2500BAI_cfg.yaml)",
+      "Bash(mv 5211CAAC50M00000CAI_01390_cfg.yaml 1390_5211CAAC50M00000CAI_cfg.yaml)",
+      "Bash(mv 5211CAAC25M00000CAI_01389_cfg.yaml 1389_5211CAAC25M00000CAI_cfg.yaml)",
+      "Bash(mv 5208HAAC50M00000BAE_01388_cfg.yaml 1388_5208HAAC50M00000BAE_cfg.yaml)",
+      "Bash(mv 5208AAAT100M0030BBE_01392_cfg.yaml 1392_5208AAAT100M0030BBE_cfg.yaml)",
+      "Bash(mv 5208HAAC50M00000BBE_01394_cfg.yaml 1394_5208HAAC50M00000BBE_cfg.yaml)",
+      "Bash(mv 5208NAAB19M20000BBI_01396_cfg.yaml 1396_5208NAAB19M20000BBI_cfg.yaml)",
+      "Bash(mv 5208NAAC38M88000BBE_01395_cfg.yaml 1395_5208NAAC38M88000BBE_cfg.yaml)",
+      "Bash(mv 5208NAAP50M00000BBI_01399_cfg.yaml 1399_5208NAAP50M00000BBI_cfg.yaml)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Bash(done)",
+      "Bash(python3:*)",
+      "Bash(python -c \"print\\(''hello''\\)\")",
+      "Bash(py -c \"print\\(''hello''\\)\")"
+    ]
+  }
+}
