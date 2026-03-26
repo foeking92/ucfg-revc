@@ -37,6 +37,10 @@ comp:
     iload: 2
     str_adj: 0
 
+poly:
+    order: 6
+    pwl: False
+
 meas:
     freq_target: 50000000
     vdd: 1.8

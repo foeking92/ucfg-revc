@@ -1,11 +1,11 @@
 basic_info:
-    filename: 1391_5201FAAD156M2500BAI_cfg
-    pn: 5201FAAD156M2500BAI
-    cfgid: 1391
+    filename: 1353_5201FAAD156M2539BAI_cfg
+    pn: 5201FAAD156M2539BAI
+    cfgid: 1353
 
 specification:
     package: 3225
-    freq: 156250000
+    freq: 156253906.25
     xtal: 156250000
     odiv: 1
     vdd: 3.3/2.5/1.8
@@ -29,33 +29,33 @@ xtal:
 icfg: /
 
 comp:
-    freq_target: /
-    vdd: /
-    temp_low: /
-    temp_high: /
-    search_bit: /
-    iload: /
-    str_adj: /
+    freq_target: 156253906.25
+    vdd: 2.5
+    temp_low: 25
+    temp_high: 25
+    search_bit: 12
+    iload: 0
+    str_adj: 0
 
 poly:
-    order: /
-    pwl: /
+    order: 0
+    pwl: False
 
 meas:
-    freq_target: /
-    vdd: /
-    temp_low: /
-    temp_high: /
-    tol_limit: /
-    stab_limit: /
-    iload: /
-    str_adj: /
+    freq_target: 156253906.25
+    vdd: 2.5
+    temp_low: 25
+    temp_high: 25
+    tol_limit: 4.5
+    stab_limit: 18
+    iload: 0
+    str_adj: 0
 
 ucfg:
     autostart: True
     temp_comp: True
     opn:
-        current: 1391
+        current: 1353
     drvhv:
         enabled: True                   
         oe:                             
