@@ -34,7 +34,7 @@ comp:
     temp_low: -45
     temp_high: 90
     search_bit: 12
-    iload: 3
+    iload: 5
     str_adj: 0
 
 poly:
@@ -48,7 +48,7 @@ meas:
     temp_high: 85
     tol_limit: 1.8
     stab_limit: 0.45
-    iload: 0
+    iload: 1
     str_adj: 0
  
 ucfg:

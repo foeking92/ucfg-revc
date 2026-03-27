@@ -34,7 +34,7 @@ comp:
     temp_low: -45
     temp_high: 90
     search_bit: 12
-    iload: 2
+    iload: 3
     str_adj: 0
 
 poly:
