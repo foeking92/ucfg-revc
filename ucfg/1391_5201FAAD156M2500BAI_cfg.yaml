@@ -29,27 +29,27 @@ xtal:
 icfg: /
 
 comp:
-    freq_target: /
-    vdd: /
-    temp_low: /
-    temp_high: /
-    search_bit: /
-    iload: /
-    str_adj: /
+    freq_target: 156250000
+    vdd: 2.5
+    temp_low: 25
+    temp_high: 25
+    search_bit: 12
+    iload: 0
+    str_adj: 0
 
 poly:
-    order: /
-    pwl: /
+    order: 0
+    pwl: 0
 
 meas:
-    freq_target: /
-    vdd: /
-    temp_low: /
-    temp_high: /
-    tol_limit: /
-    stab_limit: /
-    iload: /
-    str_adj: /
+    freq_target: 156250000
+    vdd: 2.5
+    temp_low: 25
+    temp_high: 25
+    tol_limit: 4.5
+    stab_limit: 18
+    iload: 0
+    str_adj: 0
 
 ucfg:
     autostart: True

@@ -39,7 +39,7 @@ comp:
 
 poly:
     order: 0
-    pwl: False
+    pwl: 0
 
 meas:
     freq_target: 156253906.25
